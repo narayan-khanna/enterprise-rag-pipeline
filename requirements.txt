@@ -1,0 +1,32 @@
+# Core
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# Document loading
+pypdf>=3.0.0
+python-docx>=0.8.11
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Vector store — Chroma (local, zero config)
+chromadb>=0.4.0
+
+# —————————————————————————————————————————————
+# Optional — install for your chosen vector store:
+# —————————————————————————————————————————————
+
+# Pinecone:
+# pinecone-client>=3.0.0
+
+# pgvector (PostgreSQL):
+# psycopg2-binary>=2.9.0
+# pgvector>=0.2.0
+
+# —————————————————————————————————————————————
+# Optional — better document parsing:
+# —————————————————————————————————————————————
+# unstructured>=0.10.0        # richer PDF/DOCX/HTML parsing
+# jq>=1.6.0                   # structured JSON loading
